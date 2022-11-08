@@ -1,6 +1,7 @@
 #include<stdio.h>
 #include<stdlib.h>
-int main()
+
+revers()
 {
     FILE *fp;
     int ft,i=0;
@@ -19,5 +20,5 @@ int main()
         printf("%c",fgetc(fp));
     }
     fclose(fp);
-    return 0;
+    //return 0;
 }

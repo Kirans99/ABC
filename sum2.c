@@ -1,5 +1,5 @@
 #include <stdio.h>
-int main() {    
+sumof2() {    
 
     int number1, number2, sum;
     
@@ -10,5 +10,5 @@ int main() {
     sum = number1 + number2;      
     
     printf("%d + %d = %d", number1, number2, sum);
-    return 0;
+    //return 0;
 }

@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main()
+bigg2()
 {
     int num1, num2;
 
@@ -16,5 +16,5 @@ int main()
         printf("Largest number is %d.", num2);
     }
 
-    return 0;
+    //return 0;
 }

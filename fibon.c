@@ -1,5 +1,5 @@
 #include <stdio.h> 
-int main() { 
+fibona() { 
 int term1 = 0, term2 = 1, nextTerm = 0, n; 
 printf("Enter a positive number: "); 
 scanf("%d", &n); 
@@ -12,5 +12,5 @@ term1 = term2;
 term2 = nextTerm; 
 nextTerm = term1 + term2; 
 } 
-return 0; 
+//return 0; 
 } 
